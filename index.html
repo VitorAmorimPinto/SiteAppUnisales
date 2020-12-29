@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Unisales-App</title>
 
-    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/"> -->
 
-    
+    <link href="assets/img/favicon.png" rel="icon">  
 
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/Style.css" rel="stylesheet">
+<link href="css/celular.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
   </head>
 <body>
     
 <header>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+  <nav class="navbar navbar-expand-sm navbar-light bg-light" aria-label="Third navbar example">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><h5 class="my-0 mr-md-auto font-weight-normal"><img src="./img/logo.svg" alt=""></h5></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,22 +43,48 @@
 </header>
 
 <main>
-  <div class="position-relative overflow-hidden p-3  text-center banner">
-    <div class="col-md-5 p-lg-5 my-5">
-        <h1 class="display-4 fw-normal">Texto Aleatório</h1>
+  <div class="position-relative p-5 overflow-hidden text-center banner">
+    <div class="col-md-5 p-lg-5 text-light">
+        <h1 class="display-4 fw-normal">Educa Mobile</h1>
         <p class="lead fw-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
-        <a class="btn btn-outline-secondary" href="#">Saiba mais</a>
+        <a class="btn btn-outline-light" href="#">Saiba mais</a>
     </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-  </div>
-    <div class="row">
-      <div class="col-md-12">
-        <p class=""></p>
+    <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
+    <div id="content" class="shadow-sm d-none d-md-block">
+      <div class="phone">
+        <div class="screen">
+          <div class="top">
+            <div class="dock-left">
+              <span class="clock">22:45</span>
+            </div>
+            <div class="dock">
+              <div class="sensor"></div>
+              <div class="speaker"></div>
+              <div class="camera"></div>
+            </div>
+            <div class="dock-right">
+              <div class="signal"><i class="fas fa-signal"></i></div>
+              <div class="wifi"><i class="fas fa-wifi"></i></div>
+              <div class="battery"><i class="fas fa-battery"></i></div>
+            </div>
+          </div>
+          <div class="dock-bt-home">
+            <div class="home"></div>
+          </div>
+        </div>
       </div>
-    </div>  
+    </div>
+  </div>
 </main>
-
-<footer class="container-fluid py-5">
+<conteudo>
+  <div class="row jumbotron">
+    <div class="col-md-7 mx-auto text-center">
+      <h1 class="section-title">Texto sobre o app</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+    </div>
+  </div>
+</conteudo>
+<!-- <footer class="container-fluid py-5 bg-">
   <div class="row">
     <div class="col-6 col-md">
       <h5>Features</h5>
@@ -98,7 +125,7 @@
       </ul>
     </div>
   </div>
-</footer>
+</footer> -->
     
 </body>
     
