@@ -114,13 +114,13 @@
 
   }
 
-  li{
+  .col-md-6 li{
     display: inline-block;
 
 
   }
 
-  li + li:before {
+  .col-md-6 li + li:before {
     content: " | ";
  
     }
