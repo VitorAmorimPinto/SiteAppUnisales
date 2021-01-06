@@ -11,9 +11,11 @@
     
 
     <!-- Bootstrap core CSS -->
-<link href="./css/bootstrap.min.css" rel="stylesheet">
-<link href="./css/Style.css" rel="stylesheet">
-<link href="css/celular.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/Style.css" rel="stylesheet">
+    <link href="css/celular.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
     <!-- Custom styles for this template -->
   </head>
   <body>
@@ -43,46 +45,68 @@
       </nav>
     </header>
 
-<main>
-  <div class="position-relative p-5 overflow-hidden text-center banner">
-    <div class="col-md-5 p-lg-5 text-light">
-        <h1 class="display-4 fw-normal">QR CODE AQUI</h1>
-
-    </div>
-    <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
-    <div id="content" class="shadow-sm d-none d-md-block">
-      <div class="phone">
-        <div class="screen">
-          <div class="top">
-            <div class="dock-left">
-              <span class="clock">22:45</span>
-            </div>
-            <div class="dock">
-              <div class="sensor"></div>
-              <div class="speaker"></div>
-              <div class="camera"></div>
-            </div>
-            <div class="dock-right">
-              <div class="signal"><i class="fas fa-signal"></i></div>
-              <div class="wifi"><i class="fas fa-wifi"></i></div>
-              <div class="battery"><i class="fas fa-battery"></i></div>
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner banner">
+          <div class="carousel-item active">
+            <!-- <svg class="" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg> -->
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Edu CONNECT</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              </div>
             </div>
           </div>
-          <div class="dock-bt-home">
-            <div class="home"></div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
       </div>
-    </div>
-  </div>
-</main>
+    </main>
 <conteudo>
   <div class="row jumbotron-l">
-    <div class="col-md-7 mx-auto text-center">
-      <h1 class="section-title">Texto sobre a configuração do estudante</h1>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+    <div class="col-md-6 text-center">
+      <h1 class="section-title uk-text-bold uk-h1">Texto sobre a configuração do estudante</h1>
+      <p class="p-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+    </div>
+    <div class="col-md-6 text-center">
+      <figure class="figure">
+        <img src="./img/Code.png" width="390px" height="390px" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">Aponte o celular aqui .</figcaption>
+      </figure>
     </div>
   </div>
+  
 </conteudo>
 <main>
   <div class="row jumbotron-p">
