@@ -151,3 +151,24 @@
  text-align: justify;
 
 }
+/* Icones */
+.text-icon{
+  color:#05355a;
+
+}
+.text-icon:hover{
+  color:#e74134;
+}
+/* Margin Footer */
+@media (min-width: 768px) {
+  .ml-footer {
+    margin-left: 50px;
+  }
+}
+.link-footer{
+  color:#2e71a5;
+}
+.link-footer:hover{
+  text-decoration: none;
+  color: #e74134;
+}
