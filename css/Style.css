@@ -90,7 +90,7 @@
  .jumbotron-p {
    padding: 2rem 1rem;
    margin-bottom: 2rem;
-   background-color:white;
+   /* background-color:white; */
    border-radius: 0.3rem;
  }
  
@@ -135,7 +135,7 @@
 
    @media (min-width: 768px) {
      .video {
-       width: 35%;
+       width: 65%;
        height: 80%;
 
      }
@@ -156,6 +156,12 @@
  text-align: justify;
 
 }
+.jumbotron-p p{
+  color:#464f70;
+  font-weight: 700;
+  text-align: justify;
+ 
+ }
 /* Icones */
 .text-icon{
   color:#05355a;
@@ -176,4 +182,7 @@
 .link-footer:hover{
   text-decoration: none;
   color: #e74134;
+}
+.teste{
+ background:url("../img/img-background-nossos-diferenciais.png") left no-repeat;
 }
