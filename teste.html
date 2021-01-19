@@ -10,10 +10,12 @@
 
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/Style.css" rel="stylesheet">
+<link href="css/Style copy.css" rel="stylesheet">
 <link href="css/celular.css" rel="stylesheet">
 <link href="css/carousel.css" rel="stylesheet">
 <link href="css/carousel.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+
 
 
 
@@ -22,9 +24,9 @@
 <body>
     
 <header>
-  <nav id="topo"class="navbar navbar-expand-sm bg-menu" aria-label="Third navbar example">
+  <nav id="topo"class="navbar navbar-expand-sm bg-menu fixed-top" aria-label="Third navbar example">
     <div class="container-fluid">
-      <a class="navbar-brand" href=""><h5 class="my-0 mr-md-auto font-weight-normal"><img src="./img/logo.svg" alt=""></h5></a>
+      <a class="navbar-brand" href=""><h5 class="my-0 mr-md-auto font-weight-normal"><img src="./img/logo-contrast-new.svg" alt=""></h5></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,6 +41,15 @@
           </li>
           <li class="nav-item p-1">
             <a class="nav-link" href="estudante.html" tabindex="-1" aria-disabled="true">Estudante</a>
+          </li>
+          <li class="nav-item dropdown p-1 mr-2 ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Baixe o app
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.educonnect.totvs" target="blank">Android <i class="fab fa-android"></i></a></li>
+              <li><a class="dropdown-item" href="https://apps.apple.com/br/app/meu-educonnect/id1255287155" target="blank">iPhone <i class="fab fa-apple"></i></a></li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -83,17 +94,17 @@
       </div>
     </div>
     <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span aria-hidden="true"><i class="fas fa-chevron-left fa-3x"></i></span>
     </a>
     <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="" aria-hidden="true"><i class="fas fa-chevron-right fa-3x"></i></span>
     </a>
   </div>
 </main>
 <conteudo>
   <div class="row jumbotron-l">
     <div class="col-md-5 text-center pt-5">
-      <h1 class="section-title uk-text-bold uk-h1 ">Texto sobre o app</h1>
+      <h1 class="section-title uk-text-bold uk-h1">Texto sobre o app</h1>
       <p class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
     </div>
     <div class="col-md-7">
@@ -124,11 +135,11 @@
     </div>
   </div>
 </conteudo>
-<main>
+<main class="sombreado">
   <div class="row jumbotron-p">
     <div class="col-md-12 text-center">
       <div class="div-video ratio ratio-16x9">
-        <iframe class="video"  src="https://www.youtube.com/embed/9oFUojwBpuA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video" src="https://www.youtube.com/embed/0roUQRp1yZs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -136,36 +147,40 @@
 </main>
 <footer class="col-md-8 mx-auto pt-4 my-md-5 pt-md-5">
   <div class="row">
-    <div class="col-12 col-md">
-      <img class="mb-2" src="./img/logo.svg" alt="" width="220" height="40  ">
-      <small class="p-1 d-block mb-3 text-muted">Copyright © 2021.Todo conteúdo deste site é de uso exclusivo do UniSales.</small>
+    <div class="col-12 col-md text-center">
+      <img class="mb-2" src="./img/logo.svg" alt="" width="220" height="40">
+      <br>
+      <a href="https://www.facebook.com/unisalesoficial/" target="blank"><i class="text-icon p-2 fab fa-facebook-f fa-2x"></i></a>
+      <a href="https://twitter.com/unisalesoficial" target="blank"><i class="text-icon p-2 fab fa-twitter fa-2x"></i></a>
+      <a href="https://www.linkedin.com/school/unisalesoficial/" target="blank"><i class="text-icon p-2 fab fa-linkedin-in fa-2x"></i></a>
+      <a href="https://www.instagram.com/unisalesoficial/" target="blank"><i class="text-icon p-2 fab fa-instagram fa-2x"></i></a>
     </div>
-    <div class="col-6 col-md">
-      <h5>Manuais</h5>
+    <div class="ml-footer col-6 col-md">
+      <h5 class="uk-text-bold">Manuais</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Manual</a></li>
-        <li><a class="link-secondary" href="#">Manual Estudante</a></li>
-        <li><a class="link-secondary" href="#">Manual Educador</a></li>
+        <li><a class="link-footer" href="#"><i class="far fa-file-alt mr-1"></i>Manual</a></li>
+        <li><a class="link-footer" href="#"><i class="far fa-file-alt mr-1"></i></i>Manual Estudante</a></li>
+        <li><a class="link-footer" href="#"><i class="far fa-file-alt mr-1"></i>Manual Educador</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
-      <h5>Contato</h5>
+      <h5 class="uk-text-bold">Contato</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">JivoChat</a></li>
-        <li><a class="link-secondary" title="contato@unisales.br" href="#">contato@unisales.br</a></li>
-        <li><a class="link-secondary" title="27 3331-8500" href="tel:+552733318500">27 3331-8500</a></li>
+        <li><a class="link-footer" href="#"><i class="fas fa-comment mr-1"></i></i>JivoChat</a></li>
+        <li><a class="link-footer" title="contato@unisales.br" href="#"><i class="fas fa-envelope mr-1"></i>contato@unisales.br</a></li>
+        <li><a class="link-footer" title="27 3331-8500" href="tel:+552733318500"><i class="fas fa-phone-alt mr-1"></i>27 3331-8500</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
-      <h5>Sobre</h5>
+      <h5 class="uk-text-bold">Sobre</h5>
       <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="">Início</a></li>
-        <li><a class="link-secondary" href="educador.html">Educador</a></li>
-        <li><a class="link-secondary" href="estudante.html">Estudante</a></li>
-        
+        <li><a class="link-footer" href=""><i class="fas fa-angle-right mr-1"></i>Início</a></li>
+        <li><a class="link-footer" href="educador.html"><i class="fas fa-angle-right mr-1"></i>Educador</a></li>
+        <li><a class="link-footer" href="estudante.html"><i class="fas fa-angle-right mr-1"></i>Estudante</a></li>
       </ul>
     </div>
   </div>
+  <small class="p-1 d-block mb-3 text-center text-muted">Copyright © 2021.Todo conteúdo deste site é de uso exclusivo do UniSales.</small>
 </footer>
     
 </body>
