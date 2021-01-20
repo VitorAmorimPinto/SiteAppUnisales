@@ -36,7 +36,8 @@
  /* Banner do site */
  .banner{
    background: linear-gradient(to right,rgba(66, 135, 245, 0.6),rgba(231, 65, 52, 0.8)), url("../img/_RGC0504.jpg")center top no-repeat;
-   /* height: 500px; */
+   height: 500px;
+   width: 100%;
    /* border-radius: 5px; */
  }
   /*
@@ -184,5 +185,17 @@
   color: #e74134;
 }
 .teste{
- background:url("../img/img-background-nossos-diferenciais.png") left no-repeat;
+ background:url("../img/img-background-nossos-diferenciais.png") top left no-repeat;
+}
+@media (min-width: 768px){
+  .format-text-pr{
+    padding-right: 3rem !important;
+
+  }
+}
+@media (min-width: 768px){
+  .format-text-pl{
+    padding-left: 3rem !important;
+
+  }
 }

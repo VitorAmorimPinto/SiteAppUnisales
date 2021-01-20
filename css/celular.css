@@ -84,3 +84,8 @@
   margin: 0 5px 17px 5px;
 }
 
+.img-device{
+  width: 200px;
+  max-width: 400px;
+  height: 400px;
+}
