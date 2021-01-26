@@ -2,7 +2,7 @@
    * Custom translucent site header
    */
    body{
-    font-family:'Potta One', cursive;
+    font-family:'Montserrat',sans-serif;
     width:100%;
   }
  /* Header */
@@ -202,7 +202,7 @@
  text-align: justify;
 
 }
-.jumbotron-p p{
+.jumbotron-p p, .lista li{
   color:#464f70;
   font-weight: 700;
   text-align: justify;
@@ -240,7 +240,7 @@
 }
 @media (min-width: 768px){
   .format-text-pr{
-    padding-right: 3rem !important;
+    padding-right: 5rem !important;
 
   }
 }
@@ -249,4 +249,7 @@
     padding-left: 3rem !important;
 
   }
+}
+.lista{
+  list-style: none;
 }
