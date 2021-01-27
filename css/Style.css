@@ -297,11 +297,11 @@
 }
 
 .pic-ctn {
-  position: relative;
+  position: sticky;
   width: 200px;
   max-width: 400px;
   height: 400px;
-  margin-top: 15vh;
+  
 }
 
 .pic-ctn > img {
