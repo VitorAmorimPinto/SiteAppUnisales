@@ -202,7 +202,10 @@
  text-align: justify;
 
 }
-.jumbotron-p p{
+.lista{
+  list-style: none;
+}
+.jumbotron-p p, .lista li{
   color:#464f70;
   font-weight: 700;
   text-align: justify;
