@@ -59,11 +59,11 @@
     
   }
   .banner-estudante {
-    height: 650px;
+    height: 550px;
     
   }
   .banner {
-    height: 650px;
+    height: 550px;
     
   }
   .texto-banner{
@@ -146,14 +146,15 @@
  
  @media (min-width: 768px) {
  .div-video{
-   height: 400px;
+   height: 500px;
+   padding-top:40px;
  }
  }
  .video{
    border-radius: 30px;
    box-shadow: 5px 5px;
-   width: 50%;
-   height: 50%;
+   width: 100%;
+   height: 250px;
 
  }
 
@@ -174,14 +175,14 @@
      }
    }
    .uk-h1 {
-     font-size: 2.813rem;
+     font-size: 2.250rem;
      line-height: 3.125rem;
      letter-spacing: -.05em;
      text-shadow: 0 3px 6px rgba(0,0,0,.16);
      color:#05355a;
  }
  .uk-h1-titulo {
-  font-size: 3rem;
+  font-size: 2.815rem;
   line-height: 3.125rem;
   letter-spacing: -.05em;
   text-shadow: 0 3px 6px rgba(0,0,0,.16);
@@ -271,10 +272,7 @@
   }
 }
 
-.pic-ctn {
-  width: 100vw;
-  height: 200px;
-}
+
 
 @keyframes display {
   0% {
@@ -298,35 +296,46 @@
     opacity: 0;
   }
 }
-
 .pic-ctn {
   position: sticky;
   width: 200px;
   max-width: 400px;
   height: 400px;
+  display: none;
+}
+@media (min-width:768px){
+  .pic-ctn {
+    position: sticky;
+    width: 200px;
+    max-width: 400px;
+    height: 400px;
+    display: block;
+  }
+  .pic-ctn > img {
+    position: absolute;
+    width: 200px;
+    height:400px;
+    top: 0;
+    left: 300px;
+    opacity: 0;
+    animation: display 20s infinite;
+    animation-timing-function: ease-in-out ;
+  }
   
+  img:nth-child(2) {
+    animation-delay: 4s;
+  }
+  img:nth-child(3) {
+    animation-delay: 8s;
+  }
+  img:nth-child(4) {
+    animation-delay: 12s;
+  }
+  img:nth-child(5) {
+    animation-delay: 16s;
+  }
 }
 
-.pic-ctn > img {
-  position: absolute;
-  width: 200px;
-  height:400px;
-  top: 0;
-  left: 300px;
-  opacity: 0;
-  animation: display 12s infinite;
-  animation-timing-function: ease-in-out ;
-}
-
-img:nth-child(2) {
-  animation-delay: 3s;
-}
-img:nth-child(3) {
-  animation-delay: 6s;
-}
-img:nth-child(4) {
-  animation-delay: 9s;
-}
-img:nth-child(5) {
-  animation-delay: 16s;
-}
+/* .device-mobile{
+  display: none;
+} */
