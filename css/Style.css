@@ -59,11 +59,11 @@
     
   }
   .banner-estudante {
-    height: 650px;
+    height: 550px;
     
   }
   .banner {
-    height: 650px;
+    height: 550px;
     
   }
   .texto-banner{
@@ -175,14 +175,14 @@
      }
    }
    .uk-h1 {
-     font-size: 2.813rem;
+     font-size: 2.250rem;
      line-height: 3.125rem;
      letter-spacing: -.05em;
      text-shadow: 0 3px 6px rgba(0,0,0,.16);
      color:#05355a;
  }
  .uk-h1-titulo {
-  font-size: 3rem;
+  font-size: 2.815rem;
   line-height: 3.125rem;
   letter-spacing: -.05em;
   text-shadow: 0 3px 6px rgba(0,0,0,.16);
