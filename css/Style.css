@@ -335,7 +335,18 @@
     animation-delay: 16s;
   }
 }
-
+@media(max-width:768px){
+  .t-pc{
+    opacity: 0;
+    display: none;
+  }
+}
+@media (min-width:768px){
+  .t-cel{
+    opacity: 0;
+    display: none;
+  }
+}
 /* .device-mobile{
   display: none;
 } */
